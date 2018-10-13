@@ -2,11 +2,11 @@ def fizzbuzz(n)
   if (n%3 == 0) && (n%5 != 0)
 		return "Fizz"
 
-	elsif n%5 == 0 && n%3 != 0
-		puts "Buzz"
+	elsif (n%5 == 0) && (n%3 != 0)
+		return "Buzz"
 
-  elsif n%3 == 0 && n%5 == 0
-    puts "FizzBuzz"
+  elsif (n%3 == 0) && (n%5 == 0)
+    return "FizzBuzz"
   
-  else puts nil
+  else return nil
 end
